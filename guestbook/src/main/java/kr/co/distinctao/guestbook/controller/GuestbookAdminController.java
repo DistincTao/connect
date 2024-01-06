@@ -34,4 +34,5 @@ public class GuestbookAdminController {
 		session.removeAttribute("isAdmin");
 		return "redirect:/list";
 	}
+	
 }
